@@ -1,6 +1,9 @@
 {
   "name": "login-auth-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.2"
+  },
   "description": "Login and logout app.",
   "main": "server.js",
   "scripts": {
