@@ -12,7 +12,6 @@ import {
 export const registerUser = (userData,history) => dispatch => {
     axios
     .post("http://localhost:5000/api/users/register",userData)
-    console.log(userData)
     .then(res => history.push("/login"))
     .catch(err => 
         dispatch({
