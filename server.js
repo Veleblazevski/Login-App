@@ -18,9 +18,11 @@ app.use(bodyParser.json());
 
 //DB config 
 const db = require('./config/keys');
+const port = process.env.PORT || 5000; // process.env is herokus port if u choose to deploy the app there
+
 //Connect to mongoDB
 mongoose.connect(
-    db.mongoURI || process.env.MONGODB_URI,
+    process.env.MONGODB_URI || db.mongoURI , // this is only if u have a heroku verified account to deploy the application
     {useNewUrlParser:true,
         useUnifiedTopology: true}
 )
@@ -47,6 +49,5 @@ if(process.env.NODE_ENV === 'production') {
     });
 }
 
-const port = process.env.PORT || 5000; // process.env is herokus port if u choose to deploy the app there
 
 app.listen(port,()=>console.log(`Server is up and running on ${port} !`));

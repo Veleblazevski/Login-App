@@ -9,10 +9,4 @@ Mongoose
 
 After fetching the project run npm i in both client and server side folder.
 
-You must have mongoose database/cluster to use this application.
-
-This application is developed on Heroku.
-
-If u want to see and try out this app go to : 
-
-https://lit-cliffs-78537.herokuapp.com/
+You must have mongoose mLab database/cluster to use this application.
