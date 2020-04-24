@@ -7,6 +7,10 @@ JavaScript,
 Redux,
 Mongoose
 
-After fetching the project run npm i in both client and server side folder.
+After fetching the project run npm install,in both client and server side folder.
 
 You must have mongoose mLab database/cluster to use this application.
+
+
+![GitHub Logo](/img/bg.png)
+Format: ![Alt Text](url)
