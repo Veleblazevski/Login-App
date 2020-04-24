@@ -13,4 +13,4 @@ You must have mongoose mLab database/cluster to use this application.
 
 
 ![GitHub Logo](/img/bg.png)
-Format: ![Alt Text](url)
+
